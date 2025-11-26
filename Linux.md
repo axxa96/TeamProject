@@ -52,6 +52,14 @@ Window는 bluetooth를 통한 신호 전달 기능을 지원하지 않는 관계
     python ai.py 
 
 
+4. 성공..?  
+ev3에서 ev3_server.py로 신호를 받기 위해 미리 실행한다.  
+ev3dev에서 포트 열고 그 다음 ai.py 실행해서 ev3로 신호를 주려고 했지만  
+wsl에서 웹캠을 열지 못하고 while문만 돌다가  
+Connection timed out로 지정된 시간 내에 신호를 못받아서 실패  
+결국 window 환경으로 돌아와서 wi-fi로 신호를 주고 받아야한다.
+
+
 
 
 
